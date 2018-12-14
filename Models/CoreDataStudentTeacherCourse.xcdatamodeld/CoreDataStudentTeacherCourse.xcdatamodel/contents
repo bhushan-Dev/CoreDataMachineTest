@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Course" representedClassName=".Course" syncable="YES">
+        <attribute name="courceDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courseId" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courseId" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacherId" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Teacher" representedClassName=".Teacher" syncable="YES">
+        <attribute name="courseId" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="teacherAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacherId" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="teacherName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="-81" positionY="-9" width="128" height="88"/>
+        <element name="Teacher" positionX="-324" positionY="-6" width="128" height="103"/>
+        <element name="Student" positionX="-209" positionY="-204" width="128" height="103"/>
+    </elements>
+</model>
